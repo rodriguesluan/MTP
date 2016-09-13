@@ -1,7 +1,7 @@
 #include<stdio.h>
-#define  MOSTRABOOL(x) ((printf(%s\n,(x)? "Verdadeiro": "Falso"); ))
+#define  MOSTRABOOL(x) ((printf("%s\n",(x)? "Verdadeiro": "Falso") ));
 
-typedef enum (false =0, true = 1)bool;
+typedef enum {false =0, true = 1}bool;
 
 
 int main (){
