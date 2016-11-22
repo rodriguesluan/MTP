@@ -1,0 +1,31 @@
+﻿Build started 22/11/2016 11:15:48.
+     1>Project "C:\Users\FEELT\Documents\MTP\aula20161122\projGU1\projGU1\projGU1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\projGU1.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\projGU1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt projGU1.cpp /clr:nostdlib 
+         projGU1.cpp
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(245): error C2106: '=' : left operand must be l-value
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(246): error C2065: 'txbUsuario' : undeclared identifier
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(246): error C2227: left of '->Text' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(247): error C2065: 'rbdBranco' : undeclared identifier
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(247): error C2227: left of '->Checked' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(248): error C2039: 'Darkred' : is not a member of 'System::Drawing::Color'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.drawing.dll : see declaration of 'System::Drawing::Color'
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(248): error C2065: 'Darkred' : undeclared identifier
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(249): error C2065: 'rbdMarrom' : undeclared identifier
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(249): error C2227: left of '->Checked' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(251): error C2065: 'rbdPreto' : undeclared identifier
+     1>c:\users\feelt\documents\mtp\aula20161122\projgu1\projgu1\Form1.h(251): error C2227: left of '->Checked' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>Done Building Project "C:\Users\FEELT\Documents\MTP\aula20161122\projGU1\projGU1\projGU1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.55
